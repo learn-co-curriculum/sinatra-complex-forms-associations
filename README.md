@@ -138,7 +138,7 @@ Now that we have this working code, let's go ahead and place it in our `post '/o
 
 post '/owners' do 
   @owner = Owner.create(params[:owner])
-  redirect "owners/#{@owner_id}"
+  redirect "owners/#{@owner.id}"
 end
 ```
 
@@ -341,3 +341,5 @@ Now that we've walked through these features together for the `Owner` model, tak
 Make sure you run the tests to check your work.
  
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-complex-forms-associations' title='Sinatra and Active Record: Associations and Complex Forms'>Sinatra and Active Record: Associations and Complex Forms</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/sinatra-complex-forms-associations'>Sinatra Complex Forms Associations</a> on Learn.co and start learning to code for free.</p>
