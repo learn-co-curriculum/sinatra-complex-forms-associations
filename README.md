@@ -142,7 +142,7 @@ post '/owners' do
 end
 ```
 
-Great! We're almost done with this feature. But, remember that we want a user to be able to create a new owner, select some existing pets to associate that owner too *and* have the option of creating a new pet to associate to that owner. Let's build that capability into our form.
+Great! We're almost done with this feature. But, remember that we want a user to be able to create a new owner, select some existing pets to associate that owner to *and* have the option of creating a new pet to associate to that owner. Let's build that capability into our form.
 
 #### Creating a New Owner and Associating it to a New Pet
 
