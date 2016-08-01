@@ -31,7 +31,7 @@ Since we've provided you with much of the code for this project, take a few mome
 
 The phrase "seeding the database" refers to the practice of filling up your database with some dummy data. As we develop our apps, it is essential that we have some data to work with, or we won't be able to tell if our app is working/try out the actions and features that we are building. Sinatra makes it easy for us to seed our database by providing us with something called a seed file. This file should be placed in the `db` directory: `db/seeds.rb`. This file is where you can write code that creates and saves instances of your models. 
 
-Then, when you run the seed task provided for us by Sinatra and Rake, `rake db:seed`, the code in the seed file with be executed, thus inserting some data into your database. 
+Then, when you run the seed task provided for us by Sinatra and Rake, `rake db:seed`, the code in the seed file will be executed, thus inserting some data into your database. 
 
 Go ahead and open up the seed file in this app, `db/seeds.rb`. You should see the following:
 
