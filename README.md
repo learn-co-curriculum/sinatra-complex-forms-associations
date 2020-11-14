@@ -431,8 +431,6 @@ My `params` hash consequently looks like this:
 ```ruby
 {"owner"=>{"name"=>"Adele", "pet_ids"=>["3", "4"]},
  "pet"=>{"name"=>"Another New Pet"},
- "splat"=>[],
- "captures"=>["8"],
  "id"=>"8"}
 ```
 
